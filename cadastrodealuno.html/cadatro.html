@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Cadrasto do aluno</h1>
+    <form action="Alunos">
+      <label for="Nome">Nome:</label>
+      <input type="Nome" placeholder="digite seu nome" />
+
+      <br />
+      <br />
+
+      <label for="Idade">Idade:</label>
+      <input
+        type="number"
+        name="Idade"
+        id="Idade"
+        placeholder="Digite a sua idade"
+      />
+      <br />
+      <br />
+
+      <label for="imgDoAluno">Imagem do Aluno:</label>
+      <input type="file" name="imgDoAluno" id="imgDoAluno" multiple />
+
+      <br />
+      <br />
+      <label for="Email">Email:</label>
+      <input
+        type="email"
+        name="Email"
+        id="Email"
+        placeholder="Digite seu email"
+      />
+
+      <br />
+      <br />
+
+      <label for="password">Senha:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="digite sua senha"
+      />
+
+      <br />
+      <br />
+      <label for="aniversario">Data de Nascimento:</label>
+      <input type="date" id="Nascimento" name="Nascimento" />
+
+      <br />
+      <br />
+      <label for="Tel">Telefone:</label>
+      <input type="tel" name="Tel" id="Tel" placeholder="(XX) XXXXX-XXXX" />
+      <br />
+      <br />
+
+      <input type="radio" name="sexo" id="feminino" value="feminino" />
+      <label for="feminino">Feminino</label>
+
+      <input type="radio" name="sexo" id="masculino" value="masculino" />
+      <label for="masculino">Masculino</label>
+
+      <br />
+      <br />
+
+      <label for="Estado">Estado:</label>
+      <select name="Estado" id="Estado">
+        <option value="São paulo">Sp</option>
+        <option value="Rio de janeiro">Rj</option>
+        <option value="Cuiaba">Cb</option>
+        <option value="Santa Cataria">SC</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="descricao">Descrição:</label>
+      <textarea
+        id="descricao"
+        name="descricao"
+        placeholder="Digite uma breve descrição sobre o aluno!"
+      ></textarea>
+    </form>
+  </body>
+</html>
